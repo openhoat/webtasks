@@ -30,7 +30,6 @@
     "chai": "^3.5.0",
     "eslint": "^3.12.2",
     "eslint-config-nodejs": "^1.1.0",
-    "mkdirp": "^0.5.1",
     "mocha": "^3.2.0",
     "node-mocks-http": "^1.5.5",
     "rimraf": "^2.5.4"
