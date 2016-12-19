@@ -4,7 +4,7 @@
   "description": "Webtask examples",
   "private": true,
   "scripts": {
-    "clean": "rimraf dist/*",
+    "clean": "rimraf dist/* **/.bundle*.js",
     "lint": "eslint .",
     "build": "wt-build lib/webtasks",
     "deploy": "wt-deploy lib/webtasks",
