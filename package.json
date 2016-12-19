@@ -1,0 +1,38 @@
+{
+  "name": "webtasks",
+  "version": "0.0.1",
+  "description": "Webtask examples",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "lint": "eslint .",
+    "build": "wt-build lib/webtasks",
+    "deploy": "wt-deploy lib/webtasks",
+    "start": "wt-serve lib/webtasks"
+  },
+  "author": "Olivier Penhoat <openhoat@gmail.com> (http://headwood.net/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:openhoat/webtasks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openhoat/webtasks/issues"
+  },
+  "dependencies": {
+    "bluebird": "2.9.26",
+    "jsonwebtoken": "^7.2.1",
+    "lodash": "3.9.3",
+    "redis": "2.4.2",
+    "require-directory": "^2.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "eslint-config-nodejs": "^1.1.0",
+    "mkdirp": "^0.5.1",
+    "mocha": "^3.2.0",
+    "node-mocks-http": "^1.5.5",
+    "rimraf": "^2.5.4"
+  }
+}
